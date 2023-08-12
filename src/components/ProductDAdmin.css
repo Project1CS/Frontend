@@ -1,0 +1,189 @@
+:root{
+    ----background-color:rgb(207, 164, 127, 14%);
+    ---border-color:rgb(207, 164, 127, 40%);
+    --color:rgb(207, 164, 127, 100%);
+}
+/* .pDetails{
+    padding-bottom: 10px;
+} */
+.contentProduct{
+    position: relative;
+    
+    background-color: white;
+    min-height: 500px;
+    border-radius: 6px;
+    /* padding-left:20px ;
+    padding-right: 20px; */
+    padding: 20px;
+    
+   
+}
+.contentProduct .infoCommun{
+   padding: 10px;
+   padding-bottom: 30px;
+   
+    
+}
+ .TableInfoCommun{
+   /* border: 2px solid var(---border-color) ; */
+   box-shadow: 0 10px 20PX rgba(0, 0, 0, 0.16);
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 10px;
+    
+
+}
+.contentProduct .infoCommun .TableInfoCommun thead tr{
+   height: 30px;
+}
+.contentProduct .infoCommun .TableInfoCommun tbody tr{
+    text-align: center;
+    height: 60px;
+
+}
+.contentProduct .InfoQuantite{
+    margin-left: 20px;
+}
+.contentProduct .InfoQuantite p{
+    font-size: 20px;
+    
+    padding-bottom: 20px;
+    padding-left: 10px;
+    
+}
+
+.contentProduct .InfoQuantite .cards{
+    display: grid;
+    grid-template-columns:   repeat(auto-fill,minmax(195px,1fr));
+    gap: 10px;
+    
+}
+
+.contentProduct .InfoQuantite .cards .card{
+  
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 260px;
+    position: relative;
+    box-shadow: 0 10px 20PX rgba(0, 0, 0, 0.16);
+    transition: 0.2s ;
+}
+.contentProduct .InfoQuantite .cards .card:hover{
+   margin-top: 5px;
+
+}
+
+.contentProduct .InfoQuantite .cards .card .image{
+    text-align: center;
+   position: relative;
+
+}
+
+.contentProduct .InfoQuantite .cards .card .image .icon{
+    
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    /* margin-left: 10px;
+    margin-right: 20px; */
+}
+.contentProduct .InfoQuantite .cards .card .image .icon .iconButton {
+    background-color: transparent;
+    border: none;
+    
+   
+    
+}
+.contentProduct .InfoQuantite .cards .card .image .icon .iconButton i{
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255,0.4);
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    color: rgb(0, 0, 0,0.75);
+}
+.contentProduct .InfoQuantite .cards .card .image .icon i{
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255,0.4);
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    color: rgb(0, 0, 0,0.75);
+}
+.contentProduct .InfoQuantite .cards .card .image .icon i:hover{
+    font-size: 20px;
+}
+
+.contentProduct .InfoQuantite .cards .card img{
+    width: 180px;
+   
+    border-radius: 6px;
+}
+.contentProduct .InfoQuantite .cards .card .infoProduct .TableInfoNotCommun{
+    margin-top: 10px;
+    background-color:white;
+    position: absolute;
+    width: 90%;
+    border: 1px solid rgba(112, 112, 112, 14%);
+}
+.contentProduct .InfoQuantite .cards .card .infoProduct .TableInfoNotCommun thead tr{
+    
+}
+
+.contentProduct .InfoQuantite .cards .card .infoProduct .TableInfoNotCommun tbody tr{
+    text-align: center;
+    /* color: red; */
+
+}
+
+.contentProduct .InfoQuantite .cards .card .infoProduct .TableInfoCommun thead th{
+    padding-right: 20px;
+    color: red;
+  
+}
+ 
+
+/* .contentProduct .InfoQuantite .cards{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+} */
+.confirmation-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    background-color: #f9f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1;
+   
+  }
+  
+  .confirmation-card h3 {
+    margin-top: 0;
+  }
+  
+  .confirmation-card-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .confirmation-card-buttons button {
+    margin: 0 10px;
+    color: white;
+    border: none;
+    padding: 5px;
+  }
+  .Delete{
+    background-color: red;
+  }
+  .cancel{
+    background-color: #777;
+  }

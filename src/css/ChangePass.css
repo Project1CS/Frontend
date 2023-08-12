@@ -1,0 +1,95 @@
+.container main .account-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 30px;
+}
+.container main .account-page .profile {
+    width: 30%;
+}
+.container main .account-page .account-detail {
+    width: 60%;
+}
+.container main .account-page .account-detail form {
+    width: 80%;
+}
+.container main .account-page .profile .profile-detail {
+    width: 140px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+    overflow: none;
+}
+.container main .account-page .profile .profile-detail img {
+    width: 80%;
+    height: 110px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #e3d7cd;
+}
+.container main .account-page .profile .profile-detail h2 {
+    color: #CFA47F;
+    margin-top: 18px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.container main .account-page .profile ul {
+    list-style: none;
+    padding: 10px;
+}
+.container main .account-page .profile ul li {
+    margin-bottom: 5px;
+}
+.container main .account-page .profile ul li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #f5f1f1;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px 8px;
+    display: block;
+}
+.container main .account-page .profile ul li a span {
+    float: right;
+}
+.container main .profile ul .active,
+.container main .account-page .profile ul li a:hover {
+    color: #fff;
+    background-color: #CFA47F;
+}
+.container main .account-page .account-detail form input[type=password] {
+    width: 60%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    background-color: #fff;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+    resize: vertical;
+}
+.container main .account-page .account-detail form input[type=submit] {
+    background-color: #CFA47F;
+    color: white;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 21%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container main .account-page .account-detail form input[type=submit]:hover {
+    background-color: #CFA47F;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.container main .account-page .account-detail form input[type=password], label {
+    display: block;
+    margin-left: 5%;
+}

@@ -1,0 +1,83 @@
+.header2-orders {
+    color: #9b9b9b;
+      font-weight: 500;
+      margin-top: 2%;
+      margin-left: 20px;
+  }
+  .container-orders .main-orders{
+    position: relative;
+    padding: 15px;
+    width: 95%;
+    margin-top: 8%;
+  }
+  .container-orders .main-orders .orders{
+    margin-top: 20px;
+    text-transform: capitalize;
+  }
+  .container-orders .main-orders .orders .orders-list{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  .container-orders .main-orders .orders h1 {
+    font-size: 22px;
+    margin-left: 45%;
+    margin-top: -80px;
+    margin-bottom: 30px;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders thead tr{
+    color: #fff;
+    background: #CFA47F;
+    text-align: left;
+    font-weight: bold;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders th,
+  .container-orders .main-orders .orders .orders-list .table-orders td{
+    padding: 12px 35px;
+  }
+  #ord-details {
+    padding-left: 70px;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders tbody tr{
+    border-bottom: 1px solid #ddd;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders tbody tr:nth-of-type(odd){
+    background: #f3f3f3;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders tbody tr.active{
+    font-weight: bold;
+    color: #CFA47F;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders tbody tr:last-of-type{
+    border-bottom: 2px solid #CFA47F;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders button {
+    width: 80px;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    cursor: pointer;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders button #view{
+    padding: 6px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #CFA47F;
+  }
+  .container-orders .main-orders .orders .orders-list .table-orders button:hover{
+    background: #CFA47F;
+    color: #fff;
+    transition: 0.5rem;
+  }

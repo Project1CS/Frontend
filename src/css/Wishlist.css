@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f0f0;
+}
+.header2 h6 {
+    color: #9b9b9b;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.header2 h4 {
+    margin-left: 500px;
+    margin-top: -43px;
+    font-weight: 350;
+    color: #9b9b9b;
+}
+#state {
+    margin-left: 550px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    font-weight: 650;
+    font-size: 20px;
+    color: black;
+}
+.wishlist-page {
+    margin: 80px auto;
+}
+.small-container table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 51px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+table tr th {
+    border-bottom: 1px solid #e9e5e5;
+}
+.product-info img {
+    width: 30%;
+    height: 30%;
+    border: 1px solid #aca9a9;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.product-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wish .product-info p {
+    cursor: pointer;
+}
+th {
+    text-align: left;
+    padding: 15px 15px;
+    border-radius: 5px;
+    color: black;
+    background: #fff;
+    font-weight: normal;
+}
+.wish td {
+    /* padding: 10px 15px; */
+}
+#item {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#price {
+    padding-right: 270px;
+}
+#act {
+    padding-right: 150px;
+}
+td input {
+    margin-left: -20px;
+    width: 40px;
+    height: 20px;
+    padding-left: 10px;
+}
+td input:focus {
+    outline: none;
+}
+.wish .product-info .fa-trash {
+    color: black;
+    margin-top: 110px;
+    margin-right:80% 
+}
+#checkout-btn {
+    margin-top: 60px;
+    margin-left: 450%;
+    width: 100px;
+    padding: 6px 6px;
+    background-color: #CFA47F;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#checkout-btn a {
+    color: #000;
+    font-weight: 500;
+    
+}
+.wish .price {
+    margin-left: 50%;
+}

@@ -1,0 +1,125 @@
+:root{
+    ----background-color:rgb(207, 164, 127, 14%);
+    ---border-color:rgb(207, 164, 127, 40%);
+    --color:rgb(207, 164, 127, 100%);;
+}.contentSh .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin: 10px;
+
+   
+} .contentSh .top p{
+    font-size: 20px;
+}
+.contentSh .top p span{
+    color:rgba(0, 0, 0, 0.25) ;
+    font-size: 18px;
+}
+.contentSh .divTitre{
+    /* background-color: red; */
+    /* padding-bottom: 20px; */
+    padding-left: 10px;
+    /* border-bottom: 1px solid black; */
+    width: fit-content;
+    color: var(--color);
+}
+.contentSh .Titre{
+    font-size: 20px;
+    font-weight:700 ;
+    border-bottom: 1px solid black;
+}
+.contentSh .InfoUser{
+    background-color:white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+
+.contentSh .InfoUser .ShInfoUser{
+    
+    margin:0 auto;
+    width: 70%;
+}
+.contentSh .InfoUser .ShInfoUser thead th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contentSh .InfoUser .ShInfoUser tbody tr{
+    text-align: center;
+   
+    
+    
+}
+.contentSh .InfoUser .ShInfoUser tbody td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contentSh .InfoOrders{
+    background-color:white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+.contentSh .InfoOrders .tableOrdersUser{
+   
+    width: 100%;
+    border-spacing: 0 15px;
+    border-collapse: separate;
+
+}
+.contentSh .InfoOrders .tableOrdersUser thead th{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+
+}
+.showmore{
+    background-color: var(----background-color);
+    border-color: var(---border-color);
+    /* margin: 15px; */
+    padding:5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    
+}
+.contentSh .InfoOrders .tableOrdersUser tbody{
+    /* background-color:red; */
+    /* box-shadow: 0 10px 20PX rgba(0, 0, 0, 0.16);
+    border: 4px solid black; */
+}
+.contentSh .InfoOrders .tableOrdersUser tbody tr{
+    border: 4px solid black;
+    text-align: center;
+   
+    height: 70px;
+   
+}
+.contentSh .InfoOrders .tableOrdersUser tbody td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+.contentSh .InfoOrders .tableOrdersUser tbody td:first-child{
+    border-left: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+.contentSh .InfoOrders .tableOrdersUser tbody td:last-child{
+    border-right: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+
+.contentSh .InfoOrders .tableOrdersUser tbody td img{
+    width: 50px;
+    border-radius: 6px;
+
+}

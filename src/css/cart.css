@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f0f0;
+}
+.header2 h6 {
+    color: #9b9b9b;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.header2 h4 {
+    margin-left: 500px;
+    margin-top: -43px;
+    font-weight: 350;
+    color: #9b9b9b;
+}
+#state {
+    margin-left: 390px;
+    margin-top: -20px;
+    font-weight: 650;
+    color: black;
+}
+.cart-page {
+    margin: 80px auto;
+}
+.small-container  table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 51px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+table tr th {
+    border-bottom: 1px solid #e9e5e5;
+}
+.cart-info img {
+    width: 40%;
+    height: 40%;
+    border: 1px solid #aca9a9;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart-info p {
+    cursor: pointer;
+}
+th {
+    text-align: left;
+    padding: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: black;
+    background: #fff;
+    font-weight: normal;
+}
+td {
+    /* padding: 10px 15px; */
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+#item {
+    padding-left: 40px;
+}
+#price {
+    padding-right: 250px;
+}
+#qty {
+    padding-right: 250px;
+}
+td input {
+    margin-left: -20px;
+    width: 40px;
+    height: 20px;
+    padding-left: 10px;
+}
+td input:focus {
+    outline: none;
+}
+.fa-trash {
+    color: black;
+    margin-top: 70px;
+}
+#total-dinars {
+    margin-right: -20px;
+}
+.order {
+    width: 70%;
+    border-collapse: collapse;
+    margin-left: 170px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    padding-left: 20px;
+}
+.order h4 {
+    margin-left: 20px;
+    padding-top: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
+.order h6 {
+    margin-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: black;
+    font-size: small;
+    font-weight: 500;
+}
+.order h5 {
+    margin-left: 88%;
+    margin-top: -50px;
+
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+}
+.checkout-btn {
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 41%;
+    width: 180px;
+    padding: 6px 2px;
+    background-color: #CFA47F;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

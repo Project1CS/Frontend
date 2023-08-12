@@ -1,0 +1,275 @@
+:root{
+    ----background-color:rgb(207, 164, 127, 14%);
+    ---border-color:rgb(207, 164, 127, 40%);
+    --color:rgb(207, 164, 127, 100%);
+}
+.Edit h2{
+  color: rgba(0, 0, 0, 0.25);
+  padding-left: 35px;
+}
+.Edit h2 span{
+  font-size: 20px;
+  
+}
+.Edit form{
+  
+    width: 100%;
+    display: grid;
+    grid-template-columns:2FR 1FR;
+    padding: 20px 35px;
+
+}
+.Edit .info{
+    background-color: white;
+    padding: 20px;
+    border-right: 2px dashed rgba(0, 0, 0, 0.05);
+}
+
+.Edit .info h3{
+    margin-bottom: 30px;
+
+}
+.Edit .info .inputText{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+   
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.05);
+}
+.Edit .info .formbold-form {
+  
+    text-align: center;
+    width: 40%;
+    /* padding: 13px 22px; */
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #536387;
+    outline: none;
+    resize: none;
+  }
+  .Edit .info .formbold-form:focus {
+
+    border-color: var(----background-color);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+  .Edit .info .formbold-form-label {
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 5;
+  }
+  .Edit .info .categorie{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+   
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.05);
+    
+  }
+  .Edit .info .categorie >p{
+    font-size: 20px;
+    line-height: 24px;
+
+  }
+  /* .Edit .info .categorie .inputcheckbox .categ{
+    margin-right: 20px;
+  }
+  */
+  .inputcheckbox{
+    display: flex;
+    gap: 5px;
+  }
+  .gender {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .gender input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .gender:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .gender input:checked ~ .checkmark {
+    background-color:var(--color);
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .gender input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .size-select{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+  }
+  .size-select >p{
+    font-size: 20px;
+    
+  }
+ .size-select .select-taill{
+  
+  max-width: 400px;
+  
+ }
+ .size-select .select-taill .labelnumber{
+  /* display: flex;
+  flex-direction: row; */
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+ }
+
+  .size-select .inputNumber{
+   
+   width: 30px;
+   height: 25px;
+   margin-right: 15px;
+   /* padding-bottom: 5px; */
+  margin-bottom: 5px;
+
+  }
+  .size-select .inputNumber:focus{
+    border-color: var(--color);
+  }
+  /* .size-select .labelnumber{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.75);
+    margin-right: 5px;
+  } */
+  /* edit image */
+  .Edit .image{
+    background-color: white;
+    padding: 20px;
+}
+.Edit .image h3{
+  margin-bottom: 30px;
+
+}
+ 
+  .Editproduct{
+    padding-top:20px;
+    background-color:#f5f4fe ;
+    margin-bottom: 20px;
+    
+
+  }
+ /* .color{
+  width: 100%;
+ 
+  display: flex;
+  flex-direction: row;
+  
+  gap: 70px;
+  padding-bottom: 20px; */
+  /* padding-top: 20px; */
+  /* margin-left: 20px;
+
+ 
+ } */
+  /* .colorP{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 5px;
+    
+  } */
+  /* #colorP{
+    border: none;
+  
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+  }
+  #colorP::-webkit-color-swatch {
+    border-radius: 50%;
+    border: none;
+  }
+  #colorP::-moz-color-swatch {
+    border-radius: 15px;
+    border: none;
+  } */
+  .ProductImage{
+    background-color: #f5f4fe;
+    padding: 10px;
+    text-align: center;
+    /* padding-bottom: 20px; */
+
+  }
+  .imageProuduct{
+   
+    width: 80%;
+    border-radius: 10%;
+    padding-bottom: 10px;
+    
+  }
+  .saveB{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: end;
+    border: none;
+    
+  }
+  .save{
+   
+    background-color: var(---border-color);
+    border: 2px solid var(---border-color);
+   
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+   
+  }
+  .save:hover{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+
+  }
+  #photoP{
+    color: red;
+  }

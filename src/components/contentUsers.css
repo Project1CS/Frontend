@@ -1,0 +1,107 @@
+.contentUser .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin: 10px;
+
+   
+}
+.contentUser .top p{
+    font-size: 20px;
+}
+.contentUser .top p span{
+    color:rgba(0, 0, 0, 0.25) ;
+    font-size: 18px;
+}
+.contentUser .top button{
+    background-color: var(---border-color);
+    border-color: transparent;
+    border-radius:6px ;
+    padding: 8px 10px;
+    color: white;
+}
+.contentUser .top button i{
+    /* margin: 0 4px; */
+    margin-right: 5px;
+
+
+}
+
+.tableUsers{
+    min-width: 100%;
+    
+    margin-bottom: 40px;
+}
+.tableUsers table{
+    
+    border-spacing: 0 15px;
+    border-collapse: separate;
+  
+    min-width: 100%;
+
+}
+thead tr{
+    background-color: white;
+    padding: 10px;
+}
+thead tr th{
+    padding: 20px;
+    /* border-radius: 5px; */
+}
+thead tr th:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+thead tr th:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+tbody tr{
+    background-color: white;
+    height: 60px;
+    position: relative;
+}
+tbody tr td{
+    /* padding-left: 20px; */
+    text-align: center;
+    
+}
+tbody tr td:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+tbody tr td:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.passive{
+  color: red;
+
+}
+.activ{
+    color:green;
+}
+
+.navlink{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+   
+    margin-right: 15px;
+}
+.navlink:hover ,
+td i:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  
+    /* text-decoration: underline; */
+}
+td i{
+    color: rgba(0, 0, 0, 0.5);
+   display: inline;
+   margin-left: 10px;
+}
+.add{
+    color: white;
+}
